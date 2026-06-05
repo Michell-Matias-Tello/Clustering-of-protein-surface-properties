@@ -1,8 +1,15 @@
-# Protein Analysis Project
+# **Protein Surface Clustering**
 
-A Python project for clustering and analyzing synthetic protein data using UMAP and various clustering algorithms.
+---
 
-## Project Structure
+## **📌 Project Overview**
+
+**Protein Surface Clustering** is a Python-based project designed for clustering and analyzing protein surface data. It integrates data generation, preprocessing, clustering algorithms, dimensionality reduction, and visualization tools to explore protein structures and their interactions. The project also incorporates the `protein_analysis` module, which provides additional functionality for synthetic data generation, exploratory analysis, and advanced clustering techniques.
+
+---
+
+## **🏗️ Project Structure**
+
 ````
 protein_surface_clustering/
 │
@@ -73,32 +80,144 @@ protein_surface_clustering/
 
 ````
 
-## Setup
+---
 
-1. Clone the repository:
-   git clone https://github.com/yourusername/protein_analysis.git
-   cd protein_analysis
+## **✨ Key Features**
 
-2. Create a virtual environment:
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+- **Data Generation**: Synthetic protein data generation for testing and validation.
+- **Data Preprocessing**: Cleaning, normalization, and feature extraction for protein surface data.
+- **Clustering Algorithms**: Implementation of K-Means, DBSCAN, and hierarchical clustering.
+- **Dimensionality Reduction**: PCA and UMAP for visualizing high-dimensional protein data.
+- **Visualization Tools**: Heatmaps, scatter plots, and elbow method graphs for cluster analysis.
+- **Modular Design**: Organized into reusable components for easy integration and extension.
 
-3. Install dependencies:
-   pip install -r requirements.txt
+---
 
-## Usage
+## **📦 Requirements**
 
-Run the main analysis:
-python src/main.py
+To run this project, ensure you have the following dependencies installed:
 
-## Features
+```text
+Python 3.8+
+NumPy
+Pandas
+Scikit-learn
+Matplotlib
+Seaborn
+UMAP-learn
+PyYAML
+Jupyter Notebook
+```
 
-- Synthetic protein data generation
-- Dimensionality reduction with UMAP
-- Clustering with KMeans, GMM, Hierarchical, DBSCAN, HDBSCAN
-- Visualization of clusters and profiles
-- Modular and reusable code structure
+Install the dependencies using:
 
-## License
+```bash
+pip install -r requirements.txt
+```
 
-This project is intended for portfolio and educational purposes.
+---
+
+## **🛠️ Installation**
+
+### **1. Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/protein_surface_clustering.git
+cd protein_surface_clustering
+```
+
+### **2. Create a Virtual Environment**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### **3. Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## **🚀 Usage**
+
+### **Running the Main Script**
+
+Execute the main script to perform clustering analysis on the provided protein surface data:
+
+```bash
+python main.py
+```
+
+### **Jupyter Notebooks**
+
+Explore the analysis interactively using the provided Jupyter notebooks:
+
+- **Exploratory Analysis**: `protein_analysis/notebooks/exploratory/01_initial_exploration.ipynb`
+- **Clustering Analysis**: `protein_analysis/notebooks/modeling/02_clustering_analysis.ipynb`
+- **Visualization**: `protein_analysis/notebooks/visualization/03_cluster_visualization.ipynb`
+
+---
+
+## **📊 Data**
+
+- **Input Data**: Place your protein surface data in `data/protein_surface_data.csv`.
+- **Synthetic Data**: Generated synthetic data is stored in `data/protein_analysis/raw/synthetic_protein_data.csv`.
+- **Processed Data**: Clustering results and processed data are saved in `output/data/` and `data/protein_analysis/processed/`.
+
+---
+
+## **⚙️ Configuration**
+
+Customize clustering parameters and paths using the YAML files in the `config/` directory:
+
+- `**params.yaml**`: Clustering and preprocessing parameters.
+- `**paths.yaml**`: File paths for input and output data.
+
+---
+
+## **📂 Output**
+
+All generated visualizations and processed data are saved in the `output/` directory:
+
+- **Visualizations**: `output/visualizations/`
+- **Processed Data**: `output/data/`
+
+---
+
+## **🧪 Testing**
+
+Run the test suite to ensure all components are working correctly:
+
+```bash
+python -m pytest protein_analysis/tests/
+```
+
+---
+
+## **🤝 Contributing**
+
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements. Ensure your code follows the project's coding standards and includes appropriate tests.
+
+---
+
+## **📜 License**
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## **📧 Contact**
+
+For questions, feedback, or collaboration inquiries, please contact:
+
+**Email**: [your-email@example.com](mailto:your-email@example.com)  
+**GitHub**: [your-username](https://github.com/your-username)
+
+---
+
+**⭐ Star this repository if you find it useful!**
+
+
