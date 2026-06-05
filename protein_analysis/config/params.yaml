@@ -1,0 +1,13 @@
+data:
+  n_samples: 500
+  random_seed: 42
+
+model:
+  n_components: 2
+  max_k: 10
+  algorithm: kmeans
+
+paths:
+  raw_data: data/raw/synthetic_protein_data.csv
+  processed_data: data/processed/features.csv
+  results: results/
