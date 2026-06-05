@@ -63,7 +63,6 @@ protein_surface_clustering/
 │   │
 │   ├── .gitignore
 │   ├── README.md
-│   ├── requirements.txt
 │   └── setup.py
 │
 ├── data.py
