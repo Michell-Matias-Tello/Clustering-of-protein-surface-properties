@@ -3,7 +3,7 @@
 A Python project for clustering and analyzing synthetic protein data using UMAP and various clustering algorithms.
 
 ## Project Structure
-
+````
 protein_surface_clustering/
 │
 ├── data/
@@ -72,7 +72,7 @@ protein_surface_clustering/
 ├── README.md
 └── requirements.txt
 
-
+````
 
 ## Setup
 
