@@ -78,7 +78,7 @@ protein_surface_clustering/
 ├── README.md
 ├── gitattributes
 ├──.gitignore
-├──infographic.png
+├── infographic.png
 └── requirements.txt
 
 ````
