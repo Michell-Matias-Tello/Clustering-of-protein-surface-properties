@@ -76,6 +76,9 @@ protein_surface_clustering/
 ├── structure.py
 ├── main.py
 ├── README.md
+├── gitattributes
+├──.gitignore
+├──infographic.png
 └── requirements.txt
 
 ````
