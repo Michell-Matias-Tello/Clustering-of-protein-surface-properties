@@ -34,7 +34,7 @@ protein_surface_clustering/
 │       └── cluster_profiles_heatmap_umap.png
 │
 ├── protein_analysis/
-24.64
+│   ├── notebooks/
 │   │   ├── exploratory/
 │   │   │   └── 01_initial_exploration.ipynb
 │   │   ├── modeling/
