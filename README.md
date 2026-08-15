@@ -1,6 +1,6 @@
 # **Protein Surface Clustering**
 
----
+--- 
   
 ## **📌 Project Overview**
 
@@ -34,7 +34,7 @@ protein_surface_clustering/
 │       └── cluster_profiles_heatmap_umap.png
 │
 ├── protein_analysis/
-│   ├── notebooks/
+24.64
 │   │   ├── exploratory/
 │   │   │   └── 01_initial_exploration.ipynb
 │   │   ├── modeling/
